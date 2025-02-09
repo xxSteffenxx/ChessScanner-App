@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+
+    <!--    Page titles   -->
+    <string name="page_title_add_game">Add game</string>
+    <string name="page_title_game_view">Game</string>
+    <string name="page_title_metadata">Game information</string>
+    <string name="page_title_tournament_selection">Tournament selection</string>
+
+    <string name="page_title_edit_meta_data">Edit metadata</string>
+    <string name="page_title_edit_tournament">Edit tournament</string>
+
+    <string name="page_title_subscriptions">Subscriptions</string>
+
+    <string name="page_title_settings">Settings</string>
+
+    <string name="page_title_new_tournament">Create tournament</string>
+    <string name="page_title_webapp_image_upload">Score Sheet Upload</string>
+
+
+    <!--    General     -->
+    <string name="game">Game</string>
+    <string name="games">Games</string>
+    <string name="games_x">Games: %d</string>
+    <string name="tournament">Tournament</string>
+    <string name="tournaments">Tournaments</string>
+    <string name="tournament_x">Tournament: %s</string>
+    <string name="round_x">Round: %s</string>
+    <string name="round_no_colon_x">Round %s</string>
+    <string name="search">Search…</string>
+    <string name="date_x">Date: %s</string>
+    <string name="or_text">or</string>
+    <string name="filter_active_games">Active filter: %s / %s games</string>
+    <string name="filter_active_tournaments">Active filter: %s / %s tournaments</string>
+    <string name="tournament_name">Tournament: %s</string>
+    <string name="pgn_name_round">%s (round %s)</string>
+    <string name="pgn_name_rounds">%s (rounds %s)</string>
+    <string name="premium_yearly">Premium yearly</string>
+    <string name="premium_monthly">Premium monthly</string>
+    <string name="game_sheets">Game sheets</string>
+    <string name="pgn_import">PGN import</string>
+    <string name="pgn_export">PGN export</string>
+    <string name="slash_max">/ >%s (max)</string>
+    <string name="slash_estimation">/ ~%s</string>
+
+    <string name="benefits">Benefits</string>
+    <string name="benefit_pgn_import">Importing games from PGN-Files</string>
+    <string name="benefit_pgn_export">Exporting games as PGN-Files</string>
+    <string name="benefit_edit_sheet">Editing score sheets</string>
+    <string name="benefit_open_in_lichess_and_chesscom">Open games directly in Lichess and
+        Chess.com
+    </string>
+    <string name="benefit_pro_generation">Pro Generation</string>
+    <string name="benefit_scan_second_player">Scanning score sheet of the second player</string>
+
+    <string name="subscription_info_1_title">What does Premium include?</string>
+    <string name="subscription_info_1_text">Premium includes all premium features. Premium features
+        include exporting games as PGN files, opening games in lichess and chess.com, adding score
+        sheets of the second player and all
+        future functionalities for the premium offering.
+    </string>
+
+    <string name="subscription_info_2_title">When will I be billed?</string>
+    <string name="subscription_info_2_text">The payment method linked to your Google Play Store
+        account will be billed at the end of your trial period (if applicable) on confirmation of
+        your subscription.
+    </string>
+    <string name="subscription_info_2_text_ios">The payment method linked to your App Store account
+        will be billed at the end of your trial period (if applicable) on confirmation of your
+        subscription.
+    </string>
+
+    <string name="subscription_info_3_title">Does my subscription auto-renew?</string>
+    <string name="subscription_info_3_text">Yes. You can disable this at any time in the Google Play
+        Store.
+    </string>
+    <string name="subscription_info_3_text_ios">Yes. You can disable this at any time in the App
+        Store.
+    </string>
+
+    <string name="tournament_name_unassigned_games">Unassigned games</string>
+    <string name="unlock_all_features">Unlock all features</string>
+    <string name="dynamic_colors">Dynamic colors</string>
+    <string name="not_set">Not set</string>
+    <string name="choose_your_plan">Choose your plan</string>
+
+    <string name="subscription_day">Day</string>
+    <string name="subscription_week">Week</string>
+    <string name="subscription_month">Month</string>
+    <string name="subscription_days">Days</string>
+    <string name="subscription_weeks">Weeks</string>
+    <string name="subscription_months">Months</string>
+    <string name="subscription_year">Year</string>
+    <string name="custom">Custom</string>
+    <string name="terms_of_use">Terms of Use (EULA)</string>
+    <string name="qr_code_hint">Scans QR codes created on the following websites:</string>
+    <string name="text_recognition">Text recognition:</string>
+    <string name="live_update_title">Live-Update Mode</string>
+    <string name="live_update_subtitle">Moves are updated automatically.</string>
+    <string name="save_money">Save %s</string>
+    <string name="opening">Opening: %s</string>
+    <string name="opening_plain">Opening</string>
+    <string name="board">Board</string>
+    <string name="board_x">Board: %s</string>
+    <string name="board2_x">Board %s</string>
+    <string name="notation_x">Notation: %s</string>
+    <string name="blocked_by_x">Blocked by %s</string>
+    <string name="state_open">Open</string>
+    <string name="filter_only_open_games">Open games</string>
+    <string name="filter_only_games_with_score_sheets">Games with score sheets</string>
+    <string name="tournament_version">Tournament version</string>
+
+
+    <!--    Buttons     -->
+    <string name="btn_save_game">Save game</string>
+    <string name="btn_save_data">Save data</string>
+    <string name="btn_add_tournament">Add tournament</string>
+    <string name="btn_save_selection">Save selection</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_skip">Skip</string>
+    <string name="btn_skip_game_generation">Skip game generation</string>
+    <string name="btn_generate_game">Generate game</string>
+    <string name="btn_view_game">View game</string>
+    <string name="btn_edit_game">Edit game</string>
+    <string name="btn_create_new_tournament">Create new tournament</string>
+    <string name="btn_select_tournament">Select tournament</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_load_more_games">Load more games</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_show">Show</string>
+    <string name="btn_delete_all_games_and_tournaments">Delete all games and tournaments</string>
+    <string name="btn_subscribe">Subscribe</string>
+    <string name="btn_subscribed">Subscribed</string>
+    <string name="btn_subscribe_for">Subscribe for %s/%s</string>
+    <string name="btn_restore_purchases">Restore purchases</string>
+    <string name="btn_open_in_lichess">Open in Lichess</string>
+    <string name="btn_open_in_chesscom">Open in Chess.com</string>
+    <string name="btn_insert_move_before">Insert move before</string>
+    <string name="btn_insert_move_after">Insert move after</string>
+    <string name="btn_skip_move">Skip move</string>
+    <string name="btn_delete_move">Delete move</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_ok">Ok</string>
+    <string name="btn_enter_manually">Enter manually</string>
+    <string name="btn_unlink">Unlink</string>
+    <string name="btn_disconnect">Disconnect</string>
+    <string name="btn_disconnect_from_tournament">Disconnect from tournament</string>
+    <string name="btn_disconnect_from_all_tournaments">Disconnect from all online tournaments</string>
+    <string name="btn_enter_game">Enter game</string>
+    <string name="btn_unlock_game">Unlock game</string>
+    <string name="btn_force_unlock_game">Force unlock game</string>
+    <string name="btn_upload_sheets">Upload Score Sheets</string>
+    <string name="btn_additional_update">New Upload</string>
+    <string name="btn_replace_sheet">Replace score sheet</string>
+
+
+    <!--    Labels      -->
+    <string name="name_of_the_tournament">Name of the tournament(*)</string>
+    <string name="description">Description</string>
+    <string name="comment">Comment</string>
+    <string name="columns">Columns:</string>
+    <string name="moves_per_column">Moves per column:</string>
+    <string name="date">Date</string>
+    <string name="result">Game result</string>
+    <string name="player_black">Player black</string>
+    <string name="elo">Elo</string>
+    <string name="player_white">Player white</string>
+    <string name="round">Round</string>
+    <string name="name">Name(*)</string>
+    <string name="label">Label</string>
+    <string name="template">Template</string>
+    <string name="player_1">Player 1</string>
+    <string name="player_2">Player 2 (optional)</string>
+    <string name="metadata_key">Key</string>
+    <string name="metadata_value">Value</string>
+
+
+    <!--    Toasts      -->
+    <string name="toast_removed_tournament_with_x_games">Deleted tournament with %d games</string>
+    <string name="toast_game_could_not_be_generated">Game could not be generated, check your
+        internet connection and try again.
+    </string>
+    <string name="toast_sheet_could_not_be_processed">Score sheet could not be processed!</string>
+    <string name="toast_sheet_fields_not_recognized">Score sheet could not be recognized. Set the
+        layout manually or add a new image.
+    </string>
+    <string name="toast_no_moves_detected">The opening moves of the game could not be identified!
+    </string>
+    <string name="toast_unsupported_version">Please update the app in the play store to the newest
+        version.
+    </string>
+    <string name="toast_service_unavailable">Service is currently unavailable please try again
+        later
+    </string>
+    <string name="toast_check_your_internet_connection">Please check your internet connection and
+        try again.
+    </string>
+    <string name="toast_game_saved">Game saved</string>
+    <string name="toast_filter_active">Filter activated</string>
+    <string name="toast_webapp_connected">Connected!</string>
+    <string name="toast_saved">Saved!</string>
+    <string name="toast_app_restart_required">App restart required</string>
+
+    <string name="toast_all_games_and_tournaments_deleted">All games and tournaments deleted</string>
+    <string name="toast_games_and_tournaments_could_not_be_deleted">Games and tournament could not be
+        deleted
+    </string>
+    <string name="toast_game_deleted">Game deleted</string>
+    <string name="toast_tournament_deleted">Tournament deleted</string>
+    <string name="toast_x_games_were_imported">%s games were imported!</string>
+    <string name="toast_qr_code_unsupported_version">This QR code version is currently not supported. Try
+        to update the app or open the link in the browser.
+    </string>
+    <string name="toast_qr_code_invalid">This QR code is invalid.</string>
+    <string name="toast_game_added">Game added</string>
+    <string name="toast_disconnected_from_all_tournaments">Disconnected from all online
+        tournaments.
+    </string>
+    <string name="toast_sheets_uploaded">Score sheets have been successfully uploaded!</string>
+
+    <string name="toast_unable_to_open_website">Unable to open the website.</string>
+    <string name="toast_could_not_download_sheet">Could not download score sheet.</string>
+
+
+    <!--    API-Messages    -->
+    <string name="error_request_limit_reached_try_again_in_a_minute">Request limit reached, try
+        again in a minute!
+    </string>
+    <string name="error_link_could_not_be_created">Link could not be created!</string>
+    <string name="error_no_moves">Please add moves first.</string>
+
+    <string name="an_unexpected_error_occurred">An unexpected error occurred!</string>
+
+    <!--    WebApp  -->
+    <string name="webapp_error_already_connected_to_tournament">You are already connected to this
+        tournament!
+    </string>
+    <string name="webapp_error_code_expired">This code has expired!</string>
+    <string name="webapp_error_invalid_code">This code is invalid!</string>
+    <string name="webapp_error_not_enough_space">There is not enough storage available for the
+        upload.
+    </string>
+    <string name="could_not_load_webapp_tournaments">Online Tournaments could not be loaded!
+    </string>
+
+    <!--    Dialogs     -->
+    <string name="dialog_delete_tournament_text_0_games">Delete tournament?</string>
+    <string name="dialog_delete_tournament_text_x_games">Delete tournament with all
+        games(%d)?
+    </string>
+
+    <string name="dialog_delete_game_title">Delete game?</string>
+    <string name="dialog_delete_game_text">Do you really want to delete this game?</string>
+
+    <string name="dialog_pick_image_text">Please choose your preferred mode for adding sheets
+    </string>
+    <string name="dialog_pick_image_select_image">Select image…</string>
+    <string name="dialog_pick_image_camera">Camera</string>
+    <string name="dialog_pick_image_gallery">Gallery</string>
+
+    <string name="dialog_delete_moves_text_all_moves">Remove all moves?</string>
+    <string name="dialog_delete_moves_text_moves_after">Remove all moves after %s?</string>
+    <string name="dialog_remove_sheet">Remove score sheet?</string>
+
+    <string name="dialog_regenerate_moves_upon">Regenerate all moves after %s?</string>
+    <string name="dialog_regenerate_all_moves">Regenerate all moves?</string>
+    <string name="dialog_btn_regenerate">Regenerate</string>
+
+
+    <string name="dialog_discard_game_title">Discard game?</string>
+    <string name="dialog_btn_discard">Discard</string>
+
+    <string name="dialog_delete_all_games_and_tournaments_text">Do you really want to delete all
+        games
+        and tournaments?
+    </string>
+
+    <string name="dialog_unsaved_changes_title">Unsaved changes</string>
+    <string name="dialog_unsaved_changes_save_and_leave">Save and leave</string>
+    <string name="dialog_unsaved_changes_leave">Leave</string>
+
+    <string name="dialog_generate_info_moves">Moves</string>
+    <string name="dialog_generate_info_texts">Texts</string>
+    <string name="dialog_generate_info_btn_close">Close</string>
+
+    <string name="dialog_example_title">Set sheet layouts</string>
+    <string name="dialog_example_text">Adjust the number of rows and columns, and move the grid so
+        that each move is in its grid square (as shown in the picture below). Avoid including the
+        move numbers in the grid.
+    </string>
+
+
+    <string name="dialog_rate_app_title">How do you like the app?</string>
+    <string name="dialog_rate_app_text">Please take a moment to rate the
+        app in the Play Store and share your thoughts and experiences with me.\n\nFeel free to also
+        share the app with other chess players or within your chess club to make it accessible to
+        more people and help support the continuous development of the app. :)
+    </string>
+    <string name="dialog_rate_app_rate_now">Rate now</string>
+    <string name="dialog_rate_app_never_reminder">No, thanks</string>
+    <string name="dialog_rate_app_remind_me_later">Later</string>
+
+    <string name="dialog_sheet_hint_title">What to Pay Attention To</string>
+    <string name="dialog_sheet_hint_1">The image should include the entire score sheet.</string>
+    <string name="dialog_sheet_hint_2">The score sheet should be as flat and unwrinkled as possible.
+    </string>
+    <string name="dialog_sheet_hint_3">Make sure that the text in the image is clearly readable.
+    </string>
+    <string name="dialog_sheet_hint_4">For grid detection, it is essential that all fields, even if
+        they
+        are empty, are clearly visible in the image.
+    </string>
+    <string name="dialog_sheet_hint_do_not_show_again">Got it!</string>
+
+    <string name="dialog_notation_suggestion_title">Do you really want to generate the game with the
+        current notation?
+    </string>
+    <string name="dialog_notation_suggestion_current_notation">Current notation:</string>
+    <string name="dialog_notation_suggestion_text">The following piece notation has been detected:
+    </string>
+    <string name="dialog_notation_suggestion_action_apply">Apply notation</string>
+    <string name="dialog_notation_suggestion_action_keep">Keep notation</string>
+
+    <string name="dialog_disconnect_from_tournament_title">Disconnect from tournament?</string>
+    <string name="dialog_disconnect_from_all_tournaments_title">Disconnect from all online
+        tournaments?
+    </string>
+
+
+    <!--    Messages    -->
+    <string name="message_invalid_sheet">Invalid score sheet!</string>
+    <string name="no_tournaments_yet">No tournaments yet.</string>
+    <string name="no_games_yet">No games yet.</string>
+    <string name="one_screen_other_notation_detected">Other notation detected!</string>
+    <string name="could_not_load_subscriptions">Could not load subscriptions!</string>
+    <string name="could_not_load_options">Could not load options!</string>
+
+
+    <!--    Validation      -->
+    <string name="validation_name_required">Name is required</string>
+    <string name="validation_key_required">Key is required</string>
+    <string name="validation_value_required">Value is required</string>
+    <string name="validation_invalid_elo">Elo is invalid</string>
+    <string name="validation_reached_max_length_limit">Max length reached</string>
+
+
+    <!--    Steps (shown in the header)      -->
+    <string name="step_score_sheet">Sheets</string>
+    <string name="step_game">Game</string>
+    <string name="step_details">Details</string>
+    <string name="step_review">Review</string>
+
+
+    <!--    Progress states  -->
+    <string name="game_is_being_generated">Game is being generated…</string>
+    <string name="loading_games">Loading games...</string>
+    <string name="importing_games">Importing games...</string>
+    <string name="converting_games">Converting games...</string>
+    <string name="reading_file">Reading file...</string>
+    <string name="score_sheet_is_loading">Score sheet is loading...</string>
+    <string name="generate_pgn_title">PGN file is being created...</string>
+    <string name="one_screen_is_being_processed">Processing...</string>
+    <string name="live_update_updating">Updating moves...</string>
+    <string name="applying_update">Applying updates...</string>
+    <string name="uploading_sheets">Uploading...</string>
+
+    <!--    Notation        -->
+    <string name="notation_ask_everytime">Ask everytime</string>
+    <string name="notation_international">English</string>
+    <string name="notation_german">German</string>
+    <string name="notation_spanish_italian">Spanish / Italian</string>
+    <string name="notation_french">French</string>
+    <string name="notation_portuguese">Portuguese</string>
+    <string name="notation_czech_slovak">Czech / Slovak</string>
+    <string name="notation_dutch">Dutch</string>
+
+
+    <!--    Settings        -->
+    <string name="setting_notation">Game notation</string>
+    <string name="setting_save_sheet_with_game">Save sheets with game</string>
+    <string name="setting_max_import_count">Maximum games per import</string>
+    <string name="setting_tournament_information">Include tournament information</string>
+    <string name="setting_round_information">Include round information</string>
+    <string name="setting_date_information">Include date information</string>
+    <string name="setting_opening_information">Include opening information</string>
+    <string name="setting_additional_metadata_information">Include other metadata</string>
+
+
+    <!--    Sections        -->
+    <string name="section_other">Other</string>
+    <string name="section_subscriptions">Subscriptions</string>
+    <string name="section_add_game">Add game</string>
+    <string name="section_export">Exporting games</string>
+    <string name="section_import">Importing games</string>
+
+    <string name="news">News</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="contact">Contact</string>
+
+    <string name="section_title_game_data">Game data</string>
+    <string name="section_additional_metadata">Other metadata</string>
+
+
+    <!--    Help-Section    -->
+    <string name="help_title">Help Section</string>
+    <string name="help_move_correction_title">Correct Moves</string>
+    <string name="help_move_correction_full_title">How can moves be corrected?</string>
+    <string name="help_move_correction_text">Go through the game move by move from the beginning. If
+        a move is incorrect, it can easily be
+        adjusted using the move suggestions or directly on the board.\nThe subsequent moves will
+        automatically be updated, if the live update mode is active.
+    </string>
+
+    <string name="help_forgotten_moves_title">Insert Moves</string>
+    <string name="help_forgotten_moves_full_title">How can forgotten moves be inserted?</string>
+    <string name="help_forgotten_moves_text">It can happen that a move was forgotten to be written
+        down. In such cases, missing moves must be
+        manually added to ensure the correct generation of subsequent moves.
+        \nTo insert a move, select a neighboring move, tap the "..." button, and choose "Insert move
+        before"
+        or "Insert move after". A field will then be added to the score sheet. Select a move
+        suggestion or
+        make a move on the chessboard to apply the move and update the subsequent moves.
+    </string>
+
+    <string name="help_crossed_out_moves_title">Skip Moves</string>
+    <string name="help_crossed_out_moves_full_title">How can crossed-out moves be skipped?</string>
+    <string name="help_crossed_out_moves_text">If a move has been crossed out or skipped, it must be
+        manually marked to ensure the correct
+        generation of subsequent moves.\nTo do this, select the move to be skipped, tap the "..."
+        button,
+        and choose "Skip move". If live update mode is active, all subsequent moves will be
+        automatically
+        updated.
+    </string>
+
+    <string name="help_remove_moves_title">Remove Moves</string>
+    <string name="help_remove_moves_full_title">How can moves be removed?</string>
+    <string name="help_remove_moves_text">If there are additional moves at the end of the game, they
+        can be removed using the trash button.
+        Make sure to jump to the end of the game to remove only the unnecessary moves.
+    </string>
+
+    <string name="help_full_examples_title">Complete Examples</string>
+    <string name="help_full_examples_full_title">Complete Examples</string>
+    <string name="help_full_examples_text">Below are two example videos. The first video contains
+        only minor move corrections. The second video
+        includes forgotten and crossed-out moves.
+    </string>
+
+    <string name="help_contact_title">Support / Contact</string>
+    <string name="help_contact_full_title">Support / Contact</string>
+
+    <!--    Contact-Form    -->
+    <string name="form_contact_email">Email (*)</string>
+    <string name="form_contact_name">Name (*)</string>
+    <string name="form_contact_subject">Subject (*)</string>
+    <string name="form_contact_message">Message (*)</string>
+    <string name="form_contact_attach_sheets">Attach score sheets and moves</string>
+    <string name="form_contact_accept">I agree that my data will be processed in accordance with the
+        privacy policy.
+    </string>
+    <string name="form_contact_accept_sheets">I agree that the score sheets will be used to process
+        my request and that my data will be processed in accordance with the privacy policy.
+    </string>
+    <string name="form_contact_message_sent">Message sent.</string>
+
+    <string name="form_contact_please_enter_your_email">Please enter your email address</string>
+    <string name="form_contact_please_enter_a_valid_email">Please enter a valid email address
+    </string>
+    <string name="form_contact_please_enter_your_name">Please enter your name</string>
+    <string name="form_contact_please_enter_your_message">Please enter your message</string>
+    <string name="form_contact_please_enter_a_subject">Please enter a subject</string>
+    <string name="form_contact_message_too_long">Message is too long</string>
+
+
+    <!--    Screen before game generation (\u0020 = Space)   -->
+    <string name="one_screen_sheets_player_1">Score sheets player 1</string>
+    <string name="one_screen_sheets_player_2">Score sheets player 2</string>
+    <string name="one_screen_optional">(optional)</string>
+    <string name="one_screen_move_grid">Score sheet layout</string>
+    <string name="one_screen_move_grid_player_2">Score sheet layout player 2</string>
+    <string name="one_screen_automatic">Automatically</string>
+    <string name="one_screen_manual">Set manually</string>
+    <string name="one_screen_retry">Retry</string>
+    <string name="one_screen_move_grid_hint_move_and_drag_a">Move &amp; Drag</string>
+    <string name="one_screen_move_grid_hint_move_and_drag_b">\u0020with one finger</string>
+    <string name="one_screen_move_grid_hint_zoom_a">Zoom</string>
+    <string name="one_screen_move_grid_hint_zoom_b">\u0020with two fingers</string>
+    <string name="one_screen_remove_sheet_hint_a">Tap</string>
+    <string name="one_screen_remove_sheet_hint_b">\u0020to remove sheet</string>
+    <string name="one_screen_reset">Reset</string>
+    <string name="one_screen_apply">Apply</string>
+    <string name="one_screen_pending_changes">Pending changes</string>
+
+    <string name="one_screen_notation">Notation</string>
+    <string name="one_screen_notation_detect_automatically">Automatically detect</string>
+    <string name="one_screen_notation_could_not_be_determined">Notation could not be determined.
+    </string>
+    <string name="one_screen_notation_detected_notation">Determined notation:</string>
+
+    <string name="one_screen_last_move">Last move</string>
+    <string name="one_screen_last_move_hint">Tap on the move to change the last move.</string>
+
+    <string name="one_screen_more_options">More options</string>
+
+    <!--  Generation type  -->
+    <string name="type_basic_title">Basic</string>
+    <string name="type_basic_title_2">Generation</string>
+    <string name="type_basic_text_1">Good results</string>
+    <string name="type_basic_text_2">Simple error correction</string>
+    <string name="type_basic_text_3">Fast generation</string>
+
+    <string name="type_pro_title">Pro</string>
+    <string name="type_pro_title_2">Generation</string>
+    <string name="type_pro_text_1">More precise and reliable results</string>
+    <string name="type_pro_text_2">High error correction</string>
+    <string name="type_pro_text_3">Longer duration</string>
+
+
+    <!--    ShowCase (\n = new line)   -->
+    <string name="showcase_first_message">Welcome to the Chess Scanner App!\n\nThe app for quickly
+        digitizing\nchess games.
+    </string>
+    <string name="showcase_here_gets_your_games_displayed">Here gets your games displayed.</string>
+    <string name="showcase_here_you_can_add_a_new_game">Start recording your first game.</string>
+
+    <string name="showcase_add_a_score_sheet">Add a score sheet</string>
+
+    <string name="showcase_generate_info_1">The generated moves are displayed next\nto the score
+        sheet. The background\ncolor indicates how likely a move is.
+    </string>
+    <string name="showcase_generate_info_2">Tap on the respective move in case of\ndiscrepancies to
+        select it.
+    </string>
+    <string name="showcase_generate_info_3">If necessary, filter the move suggestions by piece.
+    </string>
+    <string name="showcase_generate_info_4">And select the correct move suggestion.</string>
+    <string name="showcase_generate_info_5">Afterward, you can regenerate the game\nfrom the current
+        position.
+    </string>
+    <string name="showcase_generate_info_5b">With the Live-Update Mode, moves are updated
+        automatically.
+    </string>
+
+    <string name="showcase_game_view_1">Alternatively, you can adjust the moves\non the chess
+        board.
+    </string>
+    <string name="showcase_game_view_2">And regenerate the moves.</string>
+    <string name="showcase_game_view_3">Here you can view the entire score sheet.
+    </string>
+    <string name="showcase_game_view_3b">If anything is still unclear, you can\nfind instructions
+        and videos on how to\nuse the app here.
+    </string>
+    <string name="showcase_game_view_4">Once the moves are entered correctly,\nyou can save the
+        game.
+    </string>
+
+
+    <!--    Menu    -->
+    <string name="menu_rotate_board">Rotate board</string>
+    <string name="menu_board_size">Board size</string>
+    <string name="menu_board_size_large">Large</string>
+    <string name="menu_board_size_medium">Medium</string>
+    <string name="menu_board_size_small">Small</string>
+    <string name="menu_board_size_tiny">Tiny</string>
+
+    <string name="menu_view">View</string>
+    <string name="menu_view_live_update">Live-Update Mode</string>
+    <string name="menu_view_arrows">Arrows</string>
+    <string name="menu_view_move_suggestions">Move suggestions</string>
+    <string name="menu_open_with">Open with</string>
+    <string name="menu_open_with_premium_required">Open with (Pro version)</string>
+    <string name="menu_open_with_lichess">Lichess</string>
+    <string name="menu_open_with_chesscom">Chess.com</string>
+
+    <string name="generate_info_help_title">Correct moves</string>
+    <string name="generate_info_help_step_1">1. Identify the incorrect move</string>
+    <string name="generate_info_help_step_2">2. Select the move by tapping</string>
+    <string name="generate_info_help_step_3">3. Filter move suggestions for the piece to be moved,
+        if necessary
+    </string>
+    <string name="generate_info_help_step_4">4. Select the correct move</string>
+    <string name="generate_info_help_step_5">5. Regenerate game from the current move</string>
+    <string name="generate_info_help_step_6">The subsequent moves are automatically corrected
+    </string>
+    <string name="generate_info_help_got_it">Got it!</string>
+</resources>

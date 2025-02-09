@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+
+    <!--    Page titles  -->
+    <string name="page_title_add_game">Partie hinzufügen</string>
+    <string name="page_title_game_view">Partie</string>
+    <string name="page_title_metadata">Partie Informationen</string>
+    <string name="page_title_tournament_selection">Turnierselektion</string>
+
+    <string name="page_title_edit_meta_data">Partiedaten bearbeiten</string>
+    <string name="page_title_edit_tournament">Turnier bearbeiten</string>
+
+    <string name="page_title_subscriptions">Abonnements</string>
+
+    <string name="page_title_settings">Einstellungen</string>
+
+    <string name="page_title_new_tournament">Turnier anlegen</string>
+    <string name="page_title_webapp_image_upload">Partieformulare hochladen</string>
+
+
+    <!--    General   -->
+    <string name="game">Partie</string>
+    <string name="games">Partien</string>
+    <string name="games_x">Partien: %d</string>
+
+    <string name="tournament">Turnier</string>
+    <string name="tournaments">Turniere</string>
+    <string name="tournament_x">Turnier: %s</string>
+
+    <string name="round_x">Runde: %s</string>
+    <string name="round_no_colon_x">Runde %s</string>
+
+    <string name="search">Suche…</string>
+    <string name="date_x">Datum: %s</string>
+    <string name="or_text">oder</string>
+    <string name="filter_active_games">Filter aktiv: %s / %s Partien</string>
+    <string name="filter_active_tournaments">Filter aktiv: %s / %s Turnieren</string>
+    <string name="tournament_name">Turnier: %s</string>
+    <string name="pgn_name_round">%s (Runde %s)</string>
+    <string name="pgn_name_rounds">%s (Runden %s)</string>
+    <string name="premium_yearly">Premium jährlich</string>
+    <string name="premium_monthly">Premium monatlich</string>
+    <string name="game_sheets">Partieformulare</string>
+    <string name="pgn_import">PGN Import</string>
+    <string name="pgn_export">PGN Export</string>
+    <string name="slash_max">/ >%s (max)</string>
+    <string name="slash_estimation">/ ~%s</string>
+
+    <string name="benefits">Vorteile</string>
+    <string name="benefit_pgn_import">Importieren von Partien (PGN)</string>
+    <string name="benefit_pgn_export">Exportieren von Partien als PGN</string>
+    <string name="benefit_edit_sheet">Bearbeiten von Partieformularen</string>
+    <string name="benefit_open_in_lichess_and_chesscom">Partien direkt in Lichess und Chess.com
+        öffnen
+    </string>
+    <string name="benefit_pro_generation">Pro Generierung</string>
+    <string name="benefit_scan_second_player">Einscannen von Partieformularen des zweiten Spielers
+    </string>
+    <string name="subscription_info_1_title">Was beinhaltet Premium?</string>
+    <string name="subscription_info_1_text">Premium schaltet alle Funktionalitäten frei. Dies
+        inkludiert das Exportieren von Schachpartien im PGN Format, das Öffnen von Partien in
+        Lichess und Chess.com, das Hinzufügen von
+        Partieformularen des zweiten Spielers sowie allen zukünftigen Funktionalitäten.
+    </string>
+
+    <string name="subscription_info_2_title">Wann werde ich in Rechnung gestellt?</string>
+    <string name="subscription_info_2_text">Die Zahlungmethode verbunden mit deinem Google Play
+        Store Account wird zum Ende der Testzeit (falls zutreffend) belastet.
+    </string>
+    <string name="subscription_info_2_text_ios">Die Zahlungmethode verbunden mit deinem App Store
+        Account wird zum Ende der Testzeit (falls zutreffend) belastet.
+    </string>
+
+    <string name="subscription_info_3_title">Verlängert sich mein Abonnement automatisch?</string>
+    <string name="subscription_info_3_text">Ja. Aber du kannst es jederzeit im Google Play Store
+        deaktivieren.
+    </string>
+    <string name="subscription_info_3_text_ios">Ja. Aber du kannst es jederzeit im App Store
+        deaktivieren.
+    </string>
+    <string name="tournament_name_unassigned_games">Nicht zugewiesene Partien</string>
+    <string name="unlock_all_features">Alle Funktionalitäten freischalten</string>
+    <string name="dynamic_colors">Dynamische Farben</string>
+    <string name="not_set">Nicht gesetzt</string>
+    <string name="choose_your_plan">Wähle dein Abonnement</string>
+
+    <string name="subscription_day">Tag</string>
+    <string name="subscription_week">Woche</string>
+    <string name="subscription_month">Monat</string>
+    <string name="subscription_days">Tage</string>
+    <string name="subscription_weeks">Wochen</string>
+    <string name="subscription_months">Monate</string>
+    <string name="subscription_year">Jahr</string>
+
+    <string name="custom">Benutzerdefiniert</string>
+    <string name="terms_of_use">Nutzungsbedingungen (EULA)</string>
+    <string name="qr_code_hint">Scannt QR-Codes die über die folgenden Seiten erstellt
+        wurden:
+    </string>
+    <string name="text_recognition">Texterkennung:</string>
+    <string name="live_update_title">Live-Update-Modus</string>
+    <string name="live_update_subtitle">Züge werden automatisch aktualisiert.</string>
+
+    <string name="save_money">Spare %s</string>
+    <string name="opening">Eröffnung: %s</string>
+    <string name="opening_plain">Eröffnung</string>
+    <string name="board">Brett</string>
+    <string name="board_x">Brett: %s</string>
+    <string name="board2_x">Brett %s</string>
+    <string name="notation_x">Notation: %s</string>
+    <string name="blocked_by_x">Blockiert durch %s</string>
+    <string name="state_open">Offen</string>
+    <string name="filter_only_open_games">Offene Partien</string>
+    <string name="filter_only_games_with_score_sheets">Mit Partieformularen</string>
+    <string name="tournament_version">Turnierversion</string>
+
+
+    <!--    Buttons     -->
+    <string name="btn_save_game">Partie speichern</string>
+    <string name="btn_save_data">Daten speichern</string>
+    <string name="btn_add_tournament">Turnier hinzufügen</string>
+    <string name="btn_save_selection">Auswahl speichern</string>
+    <string name="btn_save">Speichern</string>
+    <string name="btn_delete">Löschen</string>
+    <string name="btn_cancel">Abbrechen</string>
+    <string name="btn_skip">Überspringen</string>
+    <string name="btn_skip_game_generation">Generierung überspringen</string>
+    <string name="btn_generate_game">Partie generieren</string>
+    <string name="btn_view_game">Partie ansehen</string>
+    <string name="btn_edit_game">Partie bearbeiten</string>
+    <string name="btn_create_new_tournament">Neues Turnier anlegen</string>
+    <string name="btn_select_tournament">Turnier auswählen</string>
+    <string name="btn_remove">Entfernen</string>
+    <string name="btn_edit">Bearbeiten</string>
+    <string name="btn_load_more_games">Weitere Partien laden</string>
+    <string name="btn_back">Zurück</string>
+    <string name="btn_show">Anzeigen</string>
+    <string name="btn_delete_all_games_and_tournaments">Alle Partien und Turniere löschen</string>
+    <string name="btn_subscribe">Abonnieren</string>
+    <string name="btn_subscribed">Abonniert</string>
+    <string name="btn_subscribe_for">Abonnieren für %s/%s</string>
+    <string name="btn_restore_purchases">Käufe wiederherstellen</string>
+    <string name="btn_open_in_lichess">In Lichess öffnen</string>
+    <string name="btn_open_in_chesscom">In Chess.com öffnen</string>
+    <string name="btn_insert_move_before">Zug davor einfügen</string>
+    <string name="btn_insert_move_after">Zug danach einfügen</string>
+    <string name="btn_skip_move">Zug überspringen</string>
+    <string name="btn_delete_move">Zug entfernen</string>
+    <string name="btn_submit">Abschicken</string>
+    <string name="btn_ok">Okay</string>
+    <string name="btn_enter_manually">Manuell eingeben</string>
+    <string name="btn_unlink">Trennen</string>
+    <string name="btn_disconnect">Trennen</string>
+    <string name="btn_disconnect_from_tournament">Verbindung zum Turnier trennen</string>
+    <string name="btn_disconnect_from_all_tournaments">Verbindung zu allen Online-Turnieren trennen</string>
+    <string name="btn_enter_game">Partie eingeben</string>
+    <string name="btn_unlock_game">Partie freigeben</string>
+    <string name="btn_force_unlock_game">Partiefreigabe erzwingen</string>
+    <string name="btn_upload_sheets">Partieformulare hochladen</string>
+    <string name="btn_additional_update">Weitere Partieformulare hochladen</string>
+    <string name="btn_replace_sheet">Partieformular ersetzen</string>
+
+
+    <!--    Labels      -->
+    <string name="name_of_the_tournament">Name des Turniers(*)</string>
+    <string name="description">Beschreibung</string>
+    <string name="comment">Anmerkungen</string>
+    <string name="columns">Spalten:</string>
+    <string name="moves_per_column">Züge pro Spalte:</string>
+    <string name="date">Datum</string>
+    <string name="result">Ergebnis</string>
+    <string name="player_black">Spieler Schwarz</string>
+    <string name="elo">Elo</string>
+    <string name="player_white">Spieler Weiß</string>
+    <string name="round">Runde</string>
+    <string name="name">Name(*)</string>
+    <string name="label">Bezeichnung</string>
+    <string name="template">Vorlage</string>
+    <string name="player_1">Spieler 1</string>
+    <string name="player_2">Spieler 2 (optional)</string>
+    <string name="metadata_key">Schlüssel</string>
+    <string name="metadata_value">Wert</string>
+
+
+    <!--    Toasts      -->
+    <string name="toast_removed_tournament_with_x_games">Turnier mit %d Partien gelöscht</string>
+    <string name="toast_game_could_not_be_generated">Partie konnte nicht generiert werden!</string>
+    <string name="toast_sheet_could_not_be_processed">Partieformular konnte nicht verarbeitet
+        werden!
+    </string>
+    <string name="toast_sheet_fields_not_recognized">Partieformular wurde nicht erkannt. Setze das
+        Zug-Raster manuell oder füge ein neues Bild hinzu.
+    </string>
+    <string name="toast_no_moves_detected">Die ersten Züge der Partie konnten nicht erkannt
+        werden!
+    </string>
+    <string name="toast_unsupported_version">Bitte aktualisiere die App auf die neuste Version.
+    </string>
+    <string name="toast_service_unavailable">Die Services stehen aktuell nicht zur Verfügung,
+        versuchen Sie es später erneut.
+    </string>
+    <string name="toast_check_your_internet_connection">Bitte überprüfe deine Internetverbindung und
+        versuche es erneut.
+    </string>
+    <string name="toast_game_saved">Partie gespeichert</string>
+    <string name="toast_filter_active">Filter aktiviert</string>
+    <string name="toast_webapp_connected">Verbunden!</string>
+    <string name="toast_saved">Gespeichert!</string>
+    <string name="toast_app_restart_required">Neustart der App erforderlich</string>
+
+    <string name="toast_all_games_and_tournaments_deleted">Alle Partien und Turniere wurden gelöscht
+    </string>
+    <string name="toast_games_and_tournaments_could_not_be_deleted">Partien und Turniere konnten nicht
+        gelöscht werden
+    </string>
+    <string name="toast_game_deleted">Partie wurde gelöscht</string>
+    <string name="toast_tournament_deleted">Turnier wurde gelöscht</string>
+    <string name="toast_x_games_were_imported">%s Partien wurden importiert!</string>
+    <string name="toast_qr_code_unsupported_version">Diese Version des QR-Codes wird in der aktuellen
+        Version der App nicht unterstützt. Versuchen Sie die App zu aktualisieren oder öffnen Sie
+        den Link in ihrem Browser.
+    </string>
+    <string name="toast_qr_code_invalid">Der QR-Code ist ungültig.</string>
+    <string name="toast_game_added">Partie hinzugefügt</string>
+    <string name="toast_disconnected_from_all_tournaments">Verbindung zu allen Online-Turnieren getrennt.</string>
+    <string name="toast_sheets_uploaded">Partieformulare wurden erfolgreich hochgeladen!</string>
+    <string name="toast_unable_to_open_website">Webseite konnte nicht geöffnet werden.</string>
+    <string name="toast_could_not_download_sheet">Partieformular konnte nicht heruntergeladen werden.</string>
+
+    <!--    API-Messages    -->
+    <string name="error_request_limit_reached_try_again_in_a_minute">Limit der Anfragen erreicht,
+        versuche es in einer Minute erneut!
+    </string>
+    <string name="error_link_could_not_be_created">Link konnte nicht erstellt werden!</string>
+    <string name="error_no_moves">Bitte fügen Sie zuerst Züge hinzu.</string>
+    <string name="an_unexpected_error_occurred">Ein unerwarteter Fehler ist aufgetreten!</string>
+
+
+    <!--    WebApp  -->
+    <string name="webapp_error_already_connected_to_tournament">Du bist bereits mit dem Turnier
+        verbunden!
+    </string>
+    <string name="webapp_error_code_expired">Der Code ist abgelaufen!</string>
+    <string name="webapp_error_invalid_code">Der Code ist ungültig!</string>
+    <string name="webapp_error_not_enough_space">Für den Upload ist nicht ausreichend Speicher vorhanden.</string>
+    <string name="could_not_load_webapp_tournaments">Online-Turniere konnten nicht abgerufen werden!</string>
+
+
+    <!--    Dialogs     -->
+    <string name="dialog_delete_tournament_text_0_games">Turnier löschen?</string>
+    <string name="dialog_delete_tournament_text_x_games">Turnier mit allen Partien (%d)
+        löschen?
+    </string>
+    <string name="dialog_delete_game_title">Partie löschen?</string>
+    <string name="dialog_delete_game_text">Möchten Sie die Partie wirklich löschen?</string>
+
+    <string name="dialog_pick_image_text">Wie möchtest du die Partieformulare eingeben</string>
+    <string name="dialog_pick_image_select_image">Bild auswählen…</string>
+    <string name="dialog_pick_image_camera">Kamera</string>
+    <string name="dialog_pick_image_gallery">Galerie</string>
+
+    <string name="dialog_delete_moves_text_all_moves">Alle Züge entfernen?</string>
+    <string name="dialog_delete_moves_text_moves_after">Alle Züge ab %s entfernen?</string>
+
+    <string name="dialog_remove_sheet">Partieformular entfernen?</string>
+
+    <string name="dialog_regenerate_moves_upon">Alle Züge ab %s neu generieren?</string>
+    <string name="dialog_regenerate_all_moves">Alle Züge generieren?</string>
+    <string name="dialog_btn_regenerate">Neu generieren</string>
+
+    <string name="dialog_discard_game_title">Partie verwerfen?</string>
+    <string name="dialog_btn_discard">Verwerfen</string>
+
+    <string name="dialog_delete_all_games_and_tournaments_text">Möchtest du wirklich alle Partien und
+        Turniere löschen?
+    </string>
+
+    <string name="dialog_unsaved_changes_title">Es bestehen noch ungespeicherte Änderungen</string>
+    <string name="dialog_unsaved_changes_save_and_leave">Speichern und Verlassen</string>
+    <string name="dialog_unsaved_changes_leave">Verlassen</string>
+
+    <string name="dialog_generate_info_moves">Züge</string>
+    <string name="dialog_generate_info_texts">Texte</string>
+    <string name="dialog_generate_info_btn_close">Schließen</string>
+
+    <string name="dialog_example_title">Raster setzen</string>
+    <string name="dialog_example_text">Passe die Anzahl der Zeilen und Spalten an und verschiebe das
+        Gitter so, dass jeder Zug in seinem Gitterfeld ist (wie im unteren Bild). Vermeide dabei,
+        die Zugnummern im Gitter einzuschließen.
+    </string>
+
+    <string name="dialog_rate_app_title">Bist du zufrieden mit der App?</string>
+    <string name="dialog_rate_app_text">Bitte nimm dir einen Moment Zeit, um
+        die App im Play Store zu bewerten und mir deine Meinung und Erfahrungen
+        mitzuteilen.\n\nTeile die App gerne auch mit anderen Schachspieler*innen oder in deinem
+        Schachverein, um sie weiteren Interessierten zugänglich zu machen und die kontinuierliche
+        Weiterentwicklung der App zu unterstützen. :)
+    </string>
+    <string name="dialog_rate_app_rate_now">Bewertung abgeben</string>
+    <string name="dialog_rate_app_never_reminder">Nein, danke</string>
+    <string name="dialog_rate_app_remind_me_later">Später</string>
+
+    <string name="dialog_sheet_hint_title">Worauf zu achten ist</string>
+    <string name="dialog_sheet_hint_1">Das Bild sollte das gesamte Partieformular enthalten.</string>
+    <string name="dialog_sheet_hint_2">Das Partieformular sollte möglichst nicht geknickt oder zerknittert
+        sein.
+    </string>
+    <string name="dialog_sheet_hint_3">Achte darauf, dass die Texte im Bild gut lesbar sind.</string>
+    <string name="dialog_sheet_hint_4">Für die Gittererkennung ist es essenziell, dass alle Felder, auch
+        wenn sie leer sind, gut im Bild zu erkennen sind.
+    </string>
+    <string name="dialog_sheet_hint_do_not_show_again">Nicht mehr anzeigen</string>
+
+    <string name="dialog_notation_suggestion_title">Möchtest du die Partie wirklich mit der Notation
+        generieren?
+    </string>
+    <string name="dialog_notation_suggestion_current_notation">Aktuelle Notation:</string>
+    <string name="dialog_notation_suggestion_text">Erkannte Figuren-Notation:</string>
+    <string name="dialog_notation_suggestion_action_apply">Notation übernehmen</string>
+    <string name="dialog_notation_suggestion_action_keep">Notation beibehalten</string>
+
+    <string name="dialog_disconnect_from_tournament_title">Verbindung zum Turnier trennen</string>
+    <string name="dialog_disconnect_from_all_tournaments_title">Verbindung zu allen Online-Turnieren trennen?</string>
+
+
+    <!--    Messages    -->
+    <string name="message_invalid_sheet">Partieformular ungültig!</string>
+    <string name="no_tournaments_yet">Noch keine Turniere vorhanden.</string>
+    <string name="no_games_yet">Noch keine Partien vorhanden.</string>
+    <string name="one_screen_other_notation_detected">Andere Notation erkannt!</string>
+    <string name="could_not_load_subscriptions">Abonnements konnten nicht geladen werden!</string>
+    <string name="could_not_load_options">Optionen konnten nicht geladen werden!</string>
+
+
+    <!--    Validation  -->
+    <string name="validation_name_required">Name muss gesetzt werden</string>
+    <string name="validation_key_required">Schlüssel muss gesetzt werden</string>
+    <string name="validation_value_required">Wert muss gesetzt werden</string>
+    <string name="validation_invalid_elo">Ungültige Elo</string>
+    <string name="validation_reached_max_length_limit">Maximale Länge überschritten</string>
+
+    <!--    Steps (shown in the header)      -->
+    <string name="step_score_sheet">Formulare</string>
+    <string name="step_game">Partie</string>
+    <string name="step_details">Details</string>
+    <string name="step_review">Abschluss</string>
+
+
+    <!--        Progress states       -->
+    <string name="game_is_being_generated">Partie wird generiert…</string>
+    <string name="loading_games">Partien werden geladen...</string>
+    <string name="importing_games">Partien werden importiert...</string>
+    <string name="converting_games">Partien werden umgewandelt...</string>
+    <string name="reading_file">Datei wird eingelesen...</string>
+    <string name="score_sheet_is_loading">Partieformular wird geladen...</string>
+    <string name="generate_pgn_title">PGN Datei wird erstellt...</string>
+    <string name="one_screen_is_being_processed">Wird verarbeitet...</string>
+    <string name="live_update_updating">Aktualisiere Züge...</string>
+    <string name="applying_update">Neuste Updates werden angewendet...</string>
+    <string name="uploading_sheets">Partieformulare werden hochgeladen...</string>
+
+
+    <!--    Notation        -->
+    <string name="notation_ask_everytime">Jedesmal nachfragen</string>
+    <string name="notation_international">Englisch</string>
+    <string name="notation_german">Deutsch</string>
+    <string name="notation_spanish_italian">Spanisch / Italienisch</string>
+    <string name="notation_french">Französisch</string>
+    <string name="notation_portuguese">Portugiesisch</string>
+    <string name="notation_czech_slovak">Tschechisch / Slowakisch</string>
+    <string name="notation_dutch">Niederländisch</string>
+
+    <!--    Settings        -->
+    <string name="setting_notation">Notation der Partie</string>
+    <string name="setting_save_sheet_with_game">Partieformulare mit der Partie speichern</string>
+    <string name="setting_max_import_count">Maximale Partieanzahl</string>
+    <string name="setting_tournament_information">Turnierinformationen</string>
+    <string name="setting_round_information">Rundeninformation</string>
+    <string name="setting_date_information">Datumsinformation</string>
+    <string name="setting_opening_information">Eröffnungsinformation</string>
+    <string name="setting_additional_metadata_information">Sonstige Metadaten</string>
+
+
+    <!--    Sections        -->
+    <string name="section_other">Sonstiges</string>
+    <string name="section_subscriptions">Abonnements</string>
+    <string name="section_add_game">Partie hinzufügen</string>
+    <string name="section_export">Exportieren von Partien</string>
+    <string name="section_import">Importieren von Partien</string>
+
+    <string name="news">Neuigkeiten</string>
+    <string name="privacy_policy">Datenschutzerklärung</string>
+    <string name="contact">Kontakt</string>
+
+    <string name="section_title_game_data">Partiedaten</string>
+    <string name="section_additional_metadata">Weitere Metadaten</string>
+
+
+    <!--    Help-Section    -->
+    <string name="help_title">Hilfebereich</string>
+    <string name="help_move_correction_title">Züge korrigieren</string>
+    <string name="help_move_correction_full_title">Wie können Züge korrigiert werden?</string>
+    <string name="help_move_correction_text">Gehe Zug für Zug vom Anfang der Partie durch. Sollte
+        ein Zug nicht korrekt sein, kann dieser
+        einfach mithilfe der Zugvorschläge oder direkt auf dem Brett angepasst werden.\nDie
+        Folgezüge
+        werden dabei automatisch aktualisiert, sofern der Live-Update-Modus aktiv ist.
+    </string>
+
+    <string name="help_forgotten_moves_title">Züge einfügen</string>
+    <string name="help_forgotten_moves_full_title">Wie können vergessene Züge eingefügt werden?
+    </string>
+    <string name="help_forgotten_moves_text">Es kann vorkommen, dass ein Zug vergessen wurde
+        aufzuschreiben. In solchen Fällen müssen
+        fehlende
+        Züge manuell hinzugefügt werden, um die korrekte Generierung der Folgezüge zu gewährleisten.
+        \nUm einen Zug einzufügen, wähle einen benachbarten Zug aus, tippe auf den Button "..." und
+        wähle
+        "Zug davor einfügen" oder "Zug danach einfügen" aus. Anschließend wird ein Feld im
+        Partieformular
+        hinzugefügt. Wähle dann einen Zugvorschlag aus oder ziehe einen Zug am Schachbrett, damit
+        der
+        Zug übernommen und die Folgezüge aktualisiert werden.
+    </string>
+
+    <string name="help_crossed_out_moves_title">Züge überspringen</string>
+    <string name="help_crossed_out_moves_full_title">Wie können durchgestrichene Züge übersprungen
+        werden?
+    </string>
+    <string name="help_crossed_out_moves_text">Wenn ein Zug durchgestrichen oder übersprungen wurde,
+        muss dies manuell gekennzeichnet
+        werden,
+        um die korrekte Generierung der Folgezüge zu gewährleisten.
+        \nWähle dazu den zu überspringenden Zug aus, tippe auf den Button "..." und wähle "Zug
+        überspringen" aus. Wenn der Live-Update-Modus aktiv ist, werden alle Folgezüge automatisch
+        aktualisiert.
+    </string>
+
+    <string name="help_remove_moves_title">Züge entfernen</string>
+    <string name="help_remove_moves_full_title">Wie können Züge entfernt werden?</string>
+    <string name="help_remove_moves_text">Sollten weitere Züge am Ende der Partie vorhanden sein,
+        können diese über den
+        Mülleimer-Button
+        entfernt werden. Achte darauf, zum Ende der Partie zu springen, um nur die überflüssigen
+        Züge zu
+        entfernen.
+    </string>
+
+    <string name="help_full_examples_title">Komplette Beispiele</string>
+    <string name="help_full_examples_full_title">Komplette Beispiele</string>
+    <string name="help_full_examples_text">
+        Im Folgenden sind zwei Beispielvideos aufgeführt. Das erste Video enthält nur kleinere
+        Korrekturen der Züge. Das zweite Video enthält vergessene und durchgestrichene Züge.
+    </string>
+
+    <string name="help_contact_title">Support / Kontakt</string>
+    <string name="help_contact_full_title">Support / Kontakt</string>
+
+    <!--    Contact-Form    -->
+    <string name="form_contact_email">E-Mail (*)</string>
+    <string name="form_contact_name">Name (*)</string>
+    <string name="form_contact_subject">Betreff (*)</string>
+    <string name="form_contact_message">Nachricht (*)</string>
+    <string name="form_contact_attach_sheets">Partieformulare und Züge anhängen</string>
+    <string name="form_contact_accept">Ich stimme zu, dass meine Daten gemäß der
+        Datenschutzerklärung verarbeitet werden.
+    </string>
+    <string name="form_contact_accept_sheets">Ich stimme zu, dass die Partieformulare für die
+        Bearbeitung meiner Anfrage verwendet wird und dass meine Daten gemäß der
+        Datenschutzerklärung verarbeitet werden.
+    </string>
+
+    <string name="form_contact_message_sent">Nachricht gesendet.</string>
+
+    <string name="form_contact_please_enter_your_email">Bitte geben Sie Ihre E-Mail-Adresse ein
+    </string>
+    <string name="form_contact_please_enter_a_valid_email">Bitte geben Sie eine gültige
+        E-Mail-Adresse ein
+    </string>
+    <string name="form_contact_please_enter_your_name">Bitte geben Sie Ihren Namen ein</string>
+    <string name="form_contact_please_enter_your_message">Bitte geben Sie Ihre Nachricht ein
+    </string>
+    <string name="form_contact_please_enter_a_subject">Bitte geben Sie einen Betreff an</string>
+    <string name="form_contact_message_too_long">Nachricht ist zu lang</string>
+
+
+    <!--    Screen before game generation (\u0020 = Space)  -->
+    <string name="one_screen_sheets_player_1">Partieformulare Spieler 1</string>
+    <string name="one_screen_sheets_player_2">Partieformulare Spieler 2</string>
+    <string name="one_screen_optional">(Optional)</string>
+    <string name="one_screen_move_grid">Zug-Raster</string>
+    <string name="one_screen_move_grid_player_2">Zug-Raster Spieler 2</string>
+    <string name="one_screen_automatic">Automatisch</string>
+    <string name="one_screen_manual">Manuell setzen</string>
+    <string name="one_screen_retry">Erneut versuchen</string>
+    <string name="one_screen_move_grid_hint_move_and_drag_a">Bewegen &amp; Verschieben</string>
+    <string name="one_screen_move_grid_hint_move_and_drag_b">\u0020mit einem Finger</string>
+    <string name="one_screen_move_grid_hint_zoom_a">Zoomen</string>
+    <string name="one_screen_move_grid_hint_zoom_b">\u0020mit zwei Fingern</string>
+    <string name="one_screen_remove_sheet_hint_a">Tippen</string>
+    <string name="one_screen_remove_sheet_hint_b">\u0020um Partieformular zu entfernen</string>
+    <string name="one_screen_reset">Zurücksetzen</string>
+    <string name="one_screen_apply">Übernehmen</string>
+    <string name="one_screen_pending_changes">Änderungen ausstehend</string>
+
+    <string name="one_screen_notation">Notation</string>
+    <string name="one_screen_notation_detect_automatically">Automatisch erkennen</string>
+    <string name="one_screen_notation_could_not_be_determined">Notation konnte nicht ermittelt
+        werden.
+    </string>
+    <string name="one_screen_notation_detected_notation">Erkannte Notation:</string>
+
+    <string name="one_screen_last_move">Letzter Zug</string>
+    <string name="one_screen_last_move_hint">Auf den Zug tippen, um den letzten Zug zu ändern.
+    </string>
+
+    <string name="one_screen_more_options">Weitere Optionen</string>
+
+    <!--  Generation type  -->
+    <string name="type_basic_title">Basis</string>
+    <string name="type_basic_title_2">Generierung</string>
+    <string name="type_basic_text_1">Gutes Ergebnis</string>
+    <string name="type_basic_text_2">Einfache Fehlerkorrektur</string>
+    <string name="type_basic_text_3">Schnelle Generierung</string>
+
+    <string name="type_pro_title">Pro</string>
+    <string name="type_pro_title_2">Generierung</string>
+    <string name="type_pro_text_1">Sehr gutes Ergebnis</string>
+    <string name="type_pro_text_2">Hohe Fehlerkorrektur</string>
+    <string name="type_pro_text_3">Längere Dauer</string>
+
+    <!--    ShowCase (\n = new line)   -->
+
+    <string name="showcase_first_message">Willkommen in der App Schach Scanner!\n\nDie App zum
+        schnellen Digitalisieren von\nSchachpartien.
+    </string>
+    <string name="showcase_here_gets_your_games_displayed">Hier werden dir deine erfassten Partien
+        angezeigt.
+    </string>
+    <string name="showcase_here_you_can_add_a_new_game">Beginne mit dem Erfassen der ersten
+        Partie.
+    </string>
+
+    <string name="showcase_add_a_score_sheet">Füge ein Partieformular hinzu.</string>
+
+    <string name="showcase_generate_info_1">Neben dem Partieformular werden dir die\ngenerierten
+        Züge angezeigt. Die Hintergrundfarbe\nzeigt an, wie wahrscheinlich ein Zug ist.
+    </string>
+    <string name="showcase_generate_info_2">Tippe bei Unstimmigkeiten auf den jeweiligen\nZug, um
+        ihn auszuwählen.
+    </string>
+    <string name="showcase_generate_info_3">Filtere gegebenenfalls die Zugvorschläge\nnach der
+        Figur.
+    </string>
+    <string name="showcase_generate_info_4">Und wähle den richtigen Zugvorschlag aus.</string>
+    <string name="showcase_generate_info_5">Anschließend lassen sich die Folgezüge\nab der aktuellen
+        Stellung neu generieren.
+    </string>
+    <string name="showcase_generate_info_5b">Mit dem Live-Update-Modus werden die Züge automatisch
+        aktualisiert.
+    </string>
+
+    <string name="showcase_game_view_1">Alternativ kannst du die Züge auch über das\nSchachbrett
+        anpassen.
+    </string>
+    <string name="showcase_game_view_2">Und die Züge hier neu generieren.</string>
+    <string name="showcase_game_view_3">Hierüber kannst du dir das ganze\nPartieformular
+        anzeigen.
+    </string>
+    <string name="showcase_game_view_3b">Sollte noch etwas unklar sein, findest du hier\nAnleitungen
+        und Videos zur Benutzung der App.
+    </string>
+    <string name="showcase_game_view_4">Sobald die Züge korrekt eingegeben sind,\nkannst du die
+        Partie abspeichern.
+    </string>
+
+    <!--    Menu    -->
+    <string name="menu_rotate_board">Brett drehen</string>
+    <string name="menu_board_size">Brettgröße</string>
+    <string name="menu_board_size_large">Groß</string>
+    <string name="menu_board_size_medium">Normal</string>
+    <string name="menu_board_size_small">Klein</string>
+    <string name="menu_board_size_tiny">Sehr klein</string>
+
+    <string name="menu_view">Ansicht</string>
+    <string name="menu_view_live_update">Live-Update-Modus</string>
+    <string name="menu_view_arrows">Pfeile</string>
+    <string name="menu_view_move_suggestions">Zugvorschläge</string>
+    <string name="menu_open_with">Öffnen mit</string>
+    <string name="menu_open_with_premium_required">Öffnen mit (Pro version)</string>
+    <string name="menu_open_with_lichess">Lichess</string>
+    <string name="menu_open_with_chesscom">Chess.com</string>
+
+    <string name="generate_info_help_title">Züge korrigieren</string>
+    <string name="generate_info_help_step_1">1. Inkorrekten Zug finden</string>
+    <string name="generate_info_help_step_2">2. Zug durch Tippen auswählen</string>
+    <string name="generate_info_help_step_3">3. Zugvorschläge gegebenenfalls auf die zu ziehende
+        Figur filtern
+    </string>
+    <string name="generate_info_help_step_4">4. Korrekten Zug auswählen</string>
+    <string name="generate_info_help_step_5">5. Partie ab dem aktuellen Zug neu generieren lassen
+    </string>
+    <string name="generate_info_help_step_6">Die Folgezüge werden automatisch korrigiert</string>
+    <string name="generate_info_help_got_it">Alles klar!</string>
+
+</resources>
