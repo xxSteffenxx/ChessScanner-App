@@ -17,7 +17,6 @@
     <string name="page_title_new_tournament">Turnier anlegen</string>
     <string name="page_title_webapp_image_upload">Partieformulare hochladen</string>
 
-
     <!--    General   -->
     <string name="game">Partie</string>
     <string name="games">Partien</string>
@@ -152,7 +151,9 @@
     <string name="btn_unlink">Trennen</string>
     <string name="btn_disconnect">Trennen</string>
     <string name="btn_disconnect_from_tournament">Verbindung zum Turnier trennen</string>
-    <string name="btn_disconnect_from_all_tournaments">Verbindung zu allen Online-Turnieren trennen</string>
+    <string name="btn_disconnect_from_all_tournaments">Verbindung zu allen Online-Turnieren
+        trennen
+    </string>
     <string name="btn_enter_game">Partie eingeben</string>
     <string name="btn_unlock_game">Partie freigeben</string>
     <string name="btn_force_unlock_game">Partiefreigabe erzwingen</string>
@@ -210,22 +211,28 @@
 
     <string name="toast_all_games_and_tournaments_deleted">Alle Partien und Turniere wurden gelöscht
     </string>
-    <string name="toast_games_and_tournaments_could_not_be_deleted">Partien und Turniere konnten nicht
+    <string name="toast_games_and_tournaments_could_not_be_deleted">Partien und Turniere konnten
+        nicht
         gelöscht werden
     </string>
     <string name="toast_game_deleted">Partie wurde gelöscht</string>
     <string name="toast_tournament_deleted">Turnier wurde gelöscht</string>
     <string name="toast_x_games_were_imported">%s Partien wurden importiert!</string>
-    <string name="toast_qr_code_unsupported_version">Diese Version des QR-Codes wird in der aktuellen
+    <string name="toast_qr_code_unsupported_version">Diese Version des QR-Codes wird in der
+        aktuellen
         Version der App nicht unterstützt. Versuchen Sie die App zu aktualisieren oder öffnen Sie
         den Link in ihrem Browser.
     </string>
     <string name="toast_qr_code_invalid">Der QR-Code ist ungültig.</string>
     <string name="toast_game_added">Partie hinzugefügt</string>
-    <string name="toast_disconnected_from_all_tournaments">Verbindung zu allen Online-Turnieren getrennt.</string>
+    <string name="toast_disconnected_from_all_tournaments">Verbindung zu allen Online-Turnieren
+        getrennt.
+    </string>
     <string name="toast_sheets_uploaded">Partieformulare wurden erfolgreich hochgeladen!</string>
     <string name="toast_unable_to_open_website">Webseite konnte nicht geöffnet werden.</string>
-    <string name="toast_could_not_download_sheet">Partieformular konnte nicht heruntergeladen werden.</string>
+    <string name="toast_could_not_download_sheet">Partieformular konnte nicht heruntergeladen
+        werden.
+    </string>
 
     <!--    API-Messages    -->
     <string name="error_request_limit_reached_try_again_in_a_minute">Limit der Anfragen erreicht,
@@ -235,15 +242,18 @@
     <string name="error_no_moves">Bitte fügen Sie zuerst Züge hinzu.</string>
     <string name="an_unexpected_error_occurred">Ein unerwarteter Fehler ist aufgetreten!</string>
 
-
     <!--    WebApp  -->
     <string name="webapp_error_already_connected_to_tournament">Du bist bereits mit dem Turnier
         verbunden!
     </string>
     <string name="webapp_error_code_expired">Der Code ist abgelaufen!</string>
     <string name="webapp_error_invalid_code">Der Code ist ungültig!</string>
-    <string name="webapp_error_not_enough_space">Für den Upload ist nicht ausreichend Speicher vorhanden.</string>
-    <string name="could_not_load_webapp_tournaments">Online-Turniere konnten nicht abgerufen werden!</string>
+    <string name="webapp_error_not_enough_space">Für den Upload ist nicht ausreichend Speicher
+        vorhanden.
+    </string>
+    <string name="could_not_load_webapp_tournaments">Online-Turniere konnten nicht abgerufen
+        werden!
+    </string>
 
 
     <!--    Dialogs     -->
@@ -271,7 +281,8 @@
     <string name="dialog_discard_game_title">Partie verwerfen?</string>
     <string name="dialog_btn_discard">Verwerfen</string>
 
-    <string name="dialog_delete_all_games_and_tournaments_text">Möchtest du wirklich alle Partien und
+    <string name="dialog_delete_all_games_and_tournaments_text">Möchtest du wirklich alle Partien
+        und
         Turniere löschen?
     </string>
 
@@ -281,6 +292,7 @@
 
     <string name="dialog_generate_info_moves">Züge</string>
     <string name="dialog_generate_info_texts">Texte</string>
+    <string name="dialog_generate_info_show_entire_score_sheet">Komplettes Partieformular anzeigen</string>
     <string name="dialog_generate_info_btn_close">Schließen</string>
 
     <string name="dialog_example_title">Raster setzen</string>
@@ -301,12 +313,16 @@
     <string name="dialog_rate_app_remind_me_later">Später</string>
 
     <string name="dialog_sheet_hint_title">Worauf zu achten ist</string>
-    <string name="dialog_sheet_hint_1">Das Bild sollte das gesamte Partieformular enthalten.</string>
-    <string name="dialog_sheet_hint_2">Das Partieformular sollte möglichst nicht geknickt oder zerknittert
+    <string name="dialog_sheet_hint_1">Das Bild sollte das gesamte Partieformular enthalten.
+    </string>
+    <string name="dialog_sheet_hint_2">Das Partieformular sollte möglichst nicht geknickt oder
+        zerknittert
         sein.
     </string>
-    <string name="dialog_sheet_hint_3">Achte darauf, dass die Texte im Bild gut lesbar sind.</string>
-    <string name="dialog_sheet_hint_4">Für die Gittererkennung ist es essenziell, dass alle Felder, auch
+    <string name="dialog_sheet_hint_3">Achte darauf, dass die Texte im Bild gut lesbar sind.
+    </string>
+    <string name="dialog_sheet_hint_4">Für die Gittererkennung ist es essenziell, dass alle Felder,
+        auch
         wenn sie leer sind, gut im Bild zu erkennen sind.
     </string>
     <string name="dialog_sheet_hint_do_not_show_again">Nicht mehr anzeigen</string>
@@ -320,8 +336,20 @@
     <string name="dialog_notation_suggestion_action_keep">Notation beibehalten</string>
 
     <string name="dialog_disconnect_from_tournament_title">Verbindung zum Turnier trennen</string>
-    <string name="dialog_disconnect_from_all_tournaments_title">Verbindung zu allen Online-Turnieren trennen?</string>
+    <string name="dialog_disconnect_from_all_tournaments_title">Verbindung zu allen Online-Turnieren
+        trennen?
+    </string>
 
+
+    <string name="dialog_capture_sheet_hint_title">Partieformulare erfassen</string>
+
+    <string name="dialog_save_without_adjustments_continue_anyway">Trotzdem fortfahren</string>
+    <string name="dialog_save_without_adjustments_title">Keine Anpassungen vorgenommen
+    </string>
+    <string name="dialog_save_without_adjustments_text">Die generierte Partie weist wahrscheinlich Fehler auf. Bist du sicher, dass du die Partie ohne Anpassungen speichern möchtest?
+    </string>
+    <string name="dialog_save_without_adjustments_how_to_adjust_moves">Wie kann ich Züge anpassen?
+    </string>
 
     <!--    Messages    -->
     <string name="message_invalid_sheet">Partieformular ungültig!</string>
@@ -331,7 +359,6 @@
     <string name="could_not_load_subscriptions">Abonnements konnten nicht geladen werden!</string>
     <string name="could_not_load_options">Optionen konnten nicht geladen werden!</string>
 
-
     <!--    Validation  -->
     <string name="validation_name_required">Name muss gesetzt werden</string>
     <string name="validation_key_required">Schlüssel muss gesetzt werden</string>
@@ -339,12 +366,11 @@
     <string name="validation_invalid_elo">Ungültige Elo</string>
     <string name="validation_reached_max_length_limit">Maximale Länge überschritten</string>
 
-    <!--    Steps (shown in the header)      -->
+    <!--    Steps (in the header of metadata & review)      -->
     <string name="step_score_sheet">Formulare</string>
     <string name="step_game">Partie</string>
     <string name="step_details">Details</string>
     <string name="step_review">Abschluss</string>
-
 
     <!--        Progress states       -->
     <string name="game_is_being_generated">Partie wird generiert…</string>
@@ -359,7 +385,6 @@
     <string name="applying_update">Neuste Updates werden angewendet...</string>
     <string name="uploading_sheets">Partieformulare werden hochgeladen...</string>
 
-
     <!--    Notation        -->
     <string name="notation_ask_everytime">Jedesmal nachfragen</string>
     <string name="notation_international">Englisch</string>
@@ -369,8 +394,10 @@
     <string name="notation_portuguese">Portugiesisch</string>
     <string name="notation_czech_slovak">Tschechisch / Slowakisch</string>
     <string name="notation_dutch">Niederländisch</string>
+    <string name="notation_turkish">Türkisch</string>
 
     <!--    Settings        -->
+
     <string name="setting_notation">Notation der Partie</string>
     <string name="setting_save_sheet_with_game">Partieformulare mit der Partie speichern</string>
     <string name="setting_max_import_count">Maximale Partieanzahl</string>
@@ -380,8 +407,8 @@
     <string name="setting_opening_information">Eröffnungsinformation</string>
     <string name="setting_additional_metadata_information">Sonstige Metadaten</string>
 
-
     <!--    Sections        -->
+
     <string name="section_other">Sonstiges</string>
     <string name="section_subscriptions">Abonnements</string>
     <string name="section_add_game">Partie hinzufügen</string>
@@ -395,14 +422,15 @@
     <string name="section_title_game_data">Partiedaten</string>
     <string name="section_additional_metadata">Weitere Metadaten</string>
 
-
     <!--    Help-Section    -->
+
     <string name="help_title">Hilfebereich</string>
+
     <string name="help_move_correction_title">Züge korrigieren</string>
     <string name="help_move_correction_full_title">Wie können Züge korrigiert werden?</string>
-    <string name="help_move_correction_text">Gehe Zug für Zug vom Anfang der Partie durch. Sollte
-        ein Zug nicht korrekt sein, kann dieser
-        einfach mithilfe der Zugvorschläge oder direkt auf dem Brett angepasst werden.\nDie
+    <string name="help_move_correction_text">Vergleiche die Partieformulare mit den generierten Zügen der Partie von oben nach unten. Falls
+        ein Zug nicht korrekt ist, kannst du ihn auswählen und
+        entweder mithilfe der Zugvorschläge oder direkt auf dem Brett anpassen.\nDie
         Folgezüge
         werden dabei automatisch aktualisiert, sofern der Live-Update-Modus aktiv ist.
     </string>
@@ -456,7 +484,7 @@
     <string name="help_contact_title">Support / Kontakt</string>
     <string name="help_contact_full_title">Support / Kontakt</string>
 
-    <!--    Contact-Form    -->
+
     <string name="form_contact_email">E-Mail (*)</string>
     <string name="form_contact_name">Name (*)</string>
     <string name="form_contact_subject">Betreff (*)</string>
@@ -484,7 +512,9 @@
     <string name="form_contact_message_too_long">Nachricht ist zu lang</string>
 
 
-    <!--    Screen before game generation (\u0020 = Space)  -->
+    <!--    Screen before Game Generation   -->
+
+
     <string name="one_screen_sheets_player_1">Partieformulare Spieler 1</string>
     <string name="one_screen_sheets_player_2">Partieformulare Spieler 2</string>
     <string name="one_screen_optional">(Optional)</string>
@@ -516,7 +546,7 @@
 
     <string name="one_screen_more_options">Weitere Optionen</string>
 
-    <!--  Generation type  -->
+    <!--  GenerationType  -->
     <string name="type_basic_title">Basis</string>
     <string name="type_basic_title_2">Generierung</string>
     <string name="type_basic_text_1">Gutes Ergebnis</string>
@@ -546,7 +576,8 @@
     <string name="showcase_generate_info_1">Neben dem Partieformular werden dir die\ngenerierten
         Züge angezeigt. Die Hintergrundfarbe\nzeigt an, wie wahrscheinlich ein Zug ist.
     </string>
-    <string name="showcase_generate_info_2">Tippe bei Unstimmigkeiten auf den jeweiligen\nZug, um
+    <string name="showcase_generate_info_2">Starte am Anfang des Partieformulars.\nTippe bei
+        Unstimmigkeiten auf den jeweiligen\nZug, um
         ihn auszuwählen.
     </string>
     <string name="showcase_generate_info_3">Filtere gegebenenfalls die Zugvorschläge\nnach der
@@ -556,7 +587,8 @@
     <string name="showcase_generate_info_5">Anschließend lassen sich die Folgezüge\nab der aktuellen
         Stellung neu generieren.
     </string>
-    <string name="showcase_generate_info_5b">Mit dem Live-Update-Modus werden die Züge automatisch
+    <string name="showcase_generate_info_5b">Mit dem Live-Update-Modus werden die nachfolgenden Züge
+        automatisch
         aktualisiert.
     </string>
 
@@ -568,7 +600,7 @@
         anzeigen.
     </string>
     <string name="showcase_game_view_3b">Sollte noch etwas unklar sein, findest du hier\nAnleitungen
-        und Videos zur Benutzung der App.
+        und Videos zur Verwendung der App.
     </string>
     <string name="showcase_game_view_4">Sobald die Züge korrekt eingegeben sind,\nkannst du die
         Partie abspeichern.
@@ -591,6 +623,20 @@
     <string name="menu_open_with_lichess">Lichess</string>
     <string name="menu_open_with_chesscom">Chess.com</string>
 
+
+    <!--    Donation    -->
+    <string name="donate">Spenden</string>
+    <string name="donate_title">Spenden</string>
+    <string name="donate_text">Ich bin ein unabhängiger Entwickler und arbeite Vollzeit an Schach
+        Scanner, um dir die bestmögliche Nutzererfahrung zu bieten. Wenn dir die App gefällt und du
+        die
+        Weiterentwicklung unterstützen möchtest, würde eine Spende mir sehr weiterhelfen!
+    </string>
+    <string name="donate_question">Mit wie viel möchtest du die Weiterentwicklung der App
+        unterstützen?
+    </string>
+
+
     <string name="generate_info_help_title">Züge korrigieren</string>
     <string name="generate_info_help_step_1">1. Inkorrekten Zug finden</string>
     <string name="generate_info_help_step_2">2. Zug durch Tippen auswählen</string>
@@ -602,5 +648,8 @@
     </string>
     <string name="generate_info_help_step_6">Die Folgezüge werden automatisch korrigiert</string>
     <string name="generate_info_help_got_it">Alles klar!</string>
+
+    <string name="adjust">Anpassen</string>
+    <string name="export_metadata">Metadaten</string>
 
 </resources>

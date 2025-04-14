@@ -77,7 +77,6 @@
     <string name="subscription_info_3_text_ios">Yes. You can disable this at any time in the App
         Store.
     </string>
-
     <string name="tournament_name_unassigned_games">Unassigned games</string>
     <string name="unlock_all_features">Unlock all features</string>
     <string name="dynamic_colors">Dynamic colors</string>
@@ -148,14 +147,14 @@
     <string name="btn_unlink">Unlink</string>
     <string name="btn_disconnect">Disconnect</string>
     <string name="btn_disconnect_from_tournament">Disconnect from tournament</string>
-    <string name="btn_disconnect_from_all_tournaments">Disconnect from all online tournaments</string>
+    <string name="btn_disconnect_from_all_tournaments">Disconnect from all online tournaments
+    </string>
     <string name="btn_enter_game">Enter game</string>
     <string name="btn_unlock_game">Unlock game</string>
     <string name="btn_force_unlock_game">Force unlock game</string>
     <string name="btn_upload_sheets">Upload Score Sheets</string>
     <string name="btn_additional_update">New Upload</string>
     <string name="btn_replace_sheet">Replace score sheet</string>
-
 
     <!--    Labels      -->
     <string name="name_of_the_tournament">Name of the tournament(*)</string>
@@ -204,14 +203,17 @@
     <string name="toast_saved">Saved!</string>
     <string name="toast_app_restart_required">App restart required</string>
 
-    <string name="toast_all_games_and_tournaments_deleted">All games and tournaments deleted</string>
-    <string name="toast_games_and_tournaments_could_not_be_deleted">Games and tournament could not be
+    <string name="toast_all_games_and_tournaments_deleted">All games and tournaments deleted
+    </string>
+    <string name="toast_games_and_tournaments_could_not_be_deleted">Games and tournament could not
+        be
         deleted
     </string>
     <string name="toast_game_deleted">Game deleted</string>
     <string name="toast_tournament_deleted">Tournament deleted</string>
     <string name="toast_x_games_were_imported">%s games were imported!</string>
-    <string name="toast_qr_code_unsupported_version">This QR code version is currently not supported. Try
+    <string name="toast_qr_code_unsupported_version">This QR code version is currently not
+        supported. Try
         to update the app or open the link in the browser.
     </string>
     <string name="toast_qr_code_invalid">This QR code is invalid.</string>
@@ -284,6 +286,7 @@
 
     <string name="dialog_generate_info_moves">Moves</string>
     <string name="dialog_generate_info_texts">Texts</string>
+    <string name="dialog_generate_info_show_entire_score_sheet">Show Entire Score Sheets</string>
     <string name="dialog_generate_info_btn_close">Close</string>
 
     <string name="dialog_example_title">Set sheet layouts</string>
@@ -325,12 +328,23 @@
     <string name="dialog_notation_suggestion_action_keep">Keep notation</string>
 
     <string name="dialog_disconnect_from_tournament_title">Disconnect from tournament?</string>
+
     <string name="dialog_disconnect_from_all_tournaments_title">Disconnect from all online
         tournaments?
     </string>
 
+    <string name="dialog_capture_sheet_hint_title">Capture Score Sheets</string>
+    <string name="dialog_save_without_adjustments_continue_anyway">Continue anyway</string>
+    <string name="dialog_save_without_adjustments_title">No adjustments made
+    </string>
+    <string name="dialog_save_without_adjustments_text">The generated game probably contains errors.
+        Are you sure you want to save the game without making any adjustments?
+    </string>
+    <string name="dialog_save_without_adjustments_how_to_adjust_moves">How can I adjust moves?
+    </string>
 
     <!--    Messages    -->
+
     <string name="message_invalid_sheet">Invalid score sheet!</string>
     <string name="no_tournaments_yet">No tournaments yet.</string>
     <string name="no_games_yet">No games yet.</string>
@@ -340,6 +354,7 @@
 
 
     <!--    Validation      -->
+
     <string name="validation_name_required">Name is required</string>
     <string name="validation_key_required">Key is required</string>
     <string name="validation_value_required">Value is required</string>
@@ -347,7 +362,8 @@
     <string name="validation_reached_max_length_limit">Max length reached</string>
 
 
-    <!--    Steps (shown in the header)      -->
+    <!--    Steps (in the header of metadata & review)      -->
+
     <string name="step_score_sheet">Sheets</string>
     <string name="step_game">Game</string>
     <string name="step_details">Details</string>
@@ -376,9 +392,10 @@
     <string name="notation_portuguese">Portuguese</string>
     <string name="notation_czech_slovak">Czech / Slovak</string>
     <string name="notation_dutch">Dutch</string>
-
+    <string name="notation_turkish">Turkish</string>
 
     <!--    Settings        -->
+
     <string name="setting_notation">Game notation</string>
     <string name="setting_save_sheet_with_game">Save sheets with game</string>
     <string name="setting_max_import_count">Maximum games per import</string>
@@ -387,7 +404,6 @@
     <string name="setting_date_information">Include date information</string>
     <string name="setting_opening_information">Include opening information</string>
     <string name="setting_additional_metadata_information">Include other metadata</string>
-
 
     <!--    Sections        -->
     <string name="section_other">Other</string>
@@ -403,15 +419,16 @@
     <string name="section_title_game_data">Game data</string>
     <string name="section_additional_metadata">Other metadata</string>
 
-
     <!--    Help-Section    -->
+
     <string name="help_title">Help Section</string>
+
     <string name="help_move_correction_title">Correct Moves</string>
     <string name="help_move_correction_full_title">How can moves be corrected?</string>
-    <string name="help_move_correction_text">Go through the game move by move from the beginning. If
-        a move is incorrect, it can easily be
-        adjusted using the move suggestions or directly on the board.\nThe subsequent moves will
-        automatically be updated, if the live update mode is active.
+    <string name="help_move_correction_text">Compare the score sheet with the generated moves from
+        top to bottom. If you find an incorrect move, select it and make corrections using the move
+        suggestions or by playing the correct move on the board.\nThe subsequent moves will
+        automatically be updated, if the live update mode is enabled.
     </string>
 
     <string name="help_forgotten_moves_title">Insert Moves</string>
@@ -432,7 +449,7 @@
         manually marked to ensure the correct
         generation of subsequent moves.\nTo do this, select the move to be skipped, tap the "..."
         button,
-        and choose "Skip move". If live update mode is active, all subsequent moves will be
+        and choose "Skip move". If live update mode is enabled, all subsequent moves will be
         automatically
         updated.
     </string>
@@ -454,7 +471,6 @@
     <string name="help_contact_title">Support / Contact</string>
     <string name="help_contact_full_title">Support / Contact</string>
 
-    <!--    Contact-Form    -->
     <string name="form_contact_email">Email (*)</string>
     <string name="form_contact_name">Name (*)</string>
     <string name="form_contact_subject">Subject (*)</string>
@@ -477,7 +493,7 @@
     <string name="form_contact_message_too_long">Message is too long</string>
 
 
-    <!--    Screen before game generation (\u0020 = Space)   -->
+    <!--    Screen before Game Generation (\u0020 = Space)   -->
     <string name="one_screen_sheets_player_1">Score sheets player 1</string>
     <string name="one_screen_sheets_player_2">Score sheets player 2</string>
     <string name="one_screen_optional">(optional)</string>
@@ -507,7 +523,7 @@
 
     <string name="one_screen_more_options">More options</string>
 
-    <!--  Generation type  -->
+    <!--  GenerationType  -->
     <string name="type_basic_title">Basic</string>
     <string name="type_basic_title_2">Generation</string>
     <string name="type_basic_text_1">Good results</string>
@@ -533,8 +549,8 @@
     <string name="showcase_generate_info_1">The generated moves are displayed next\nto the score
         sheet. The background\ncolor indicates how likely a move is.
     </string>
-    <string name="showcase_generate_info_2">Tap on the respective move in case of\ndiscrepancies to
-        select it.
+    <string name="showcase_generate_info_2">Start at the beginning of the score sheet.\nIf there is
+        a discrepancy, tap on the\ncorresponding move to select it.
     </string>
     <string name="showcase_generate_info_3">If necessary, filter the move suggestions by piece.
     </string>
@@ -542,7 +558,8 @@
     <string name="showcase_generate_info_5">Afterward, you can regenerate the game\nfrom the current
         position.
     </string>
-    <string name="showcase_generate_info_5b">With the Live-Update Mode, moves are updated
+    <string name="showcase_generate_info_5b">With the Live-Update Mode, the subsequent moves are
+        updated
         automatically.
     </string>
 
@@ -577,6 +594,16 @@
     <string name="menu_open_with_lichess">Lichess</string>
     <string name="menu_open_with_chesscom">Chess.com</string>
 
+
+    <!--    Donation    -->
+    <string name="donate">Donate</string>
+    <string name="donate_title">Donate</string>
+    <string name="donate_text">I am an independent developer and work full-time on ChessScanner to
+        provide you with the best possible user experience. If you enjoy the app and would like to
+        support its further development, a donation would greatly help me!
+    </string>
+    <string name="donate_question">How much you want to donate?</string>
+
     <string name="generate_info_help_title">Correct moves</string>
     <string name="generate_info_help_step_1">1. Identify the incorrect move</string>
     <string name="generate_info_help_step_2">2. Select the move by tapping</string>
@@ -588,4 +615,7 @@
     <string name="generate_info_help_step_6">The subsequent moves are automatically corrected
     </string>
     <string name="generate_info_help_got_it">Got it!</string>
+
+    <string name="adjust">Adjust</string>
+    <string name="export_metadata">Metadata</string>
 </resources>
